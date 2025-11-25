@@ -1,0 +1,113 @@
+.sidebar {
+    width: 13.125rem;
+    height: 100vh;
+    border-right: .0625rem solid #eee;
+    padding: 1.25rem 1.125rem;
+    background: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #dfd7d7;
+  background-color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+
+
+
+.brand-info{
+  display: flex;
+  align-items: center;
+  gap: 0.29rem;
+}
+
+#user-info{padding: 10px;
+border-top: 0.5px solid whitesmoke;
+border-bottom: 0.5px solid whitesmoke;
+gap: 10px;
+}
+
+.brand h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #333;
+  margin: 0;
+}
+
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; 
+  background: linear-gradient(to bottom right, #2563eb, #4f46e5); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 600;
+  flex-shrink: 0;
+  font-size: 1rem;
+}
+
+
+
+.profile-info .name {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #333;
+  margin: 0;
+}
+
+.profile-info .email {
+  font-size: 0.75rem;
+  color: #666;
+  margin: 0;
+}
+
+
+.menu {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 20px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 12px;
+    border-radius:8px;
+    cursor: pointer;
+    color: #333;
+    font-size: .875rem;
+}
+
+
+.menu-item:hover {
+    background: #eef2ff;
+    color: #4a6cf7;
+}
+
+.logout {
+   margin-top: 90px;
+   padding: 15px;
+    border: none;
+     border-top: 1px solid #dfd7d7;
+    background: transparent;
+    color: #d9534f;
+    cursor: pointer;
+    text-align: left;
+    font-size: .875rem;
+}

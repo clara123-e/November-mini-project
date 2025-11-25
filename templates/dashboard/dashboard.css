@@ -1,0 +1,104 @@
+body {
+    background: #fafbff;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.main-area {
+    margin-left: 260px;
+    padding: 20px;
+}
+
+
+.cards-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #eee;
+}
+.card-infor {display: flex;
+gap: 50px;}
+.card .icon {
+    background: #eef2ff;
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.card h4 {font-size: 15px;
+color: grey;}
+.card h2 {
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.card small{color: grey;}
+
+
+.main-sections {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;             
+  margin-top: 20px;      
+}
+
+
+.recent, .quick-actions {
+  background: white;
+  padding: 8px;           
+  border-radius: 10px;    
+  border: 1px solid #eee;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;             
+  padding: 10px;          
+  background: #f9fafb;
+  border-radius: 8px;
+  font-size: 13px;        
+}
+
+.circle {
+  width: 6px;             
+  height: 6px;
+  border-radius: 50%;
+  border: 2px solid #4a6cf7;
+}
+
+.tag {
+  background: #ffe7a0;
+  padding: 3px 8px;      
+  border-radius: 6px;
+  margin-left: auto;
+  font-size: 12px;        
+}
+
+
+.qa-item {
+  display: flex;
+  gap: 15px;             
+  padding: 10px;          
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background: #f9fafb;
+  font-size: 13px;       
+}
+
+.qa-item:hover {
+  background: #06B6D4       
+  
+}
+.qa-icon {
+  background: #eef2ff;
+  padding: 6px;           
+  border-radius: 6px;
+  font-size: 14px;        
+}
